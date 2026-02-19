@@ -2,6 +2,7 @@
 node_modules/
 .pnp
 .pnp.js
+.vite-env.d.ts
 
 # Produção (Arquivos gerados pelo comando npm run build)
 dist/
