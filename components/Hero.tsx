@@ -24,8 +24,7 @@ const Hero: React.FC = () => {
 
                 <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
                     <a
-                        href="https://pay.hotmart.com/M103414494J?checkoutMode=10&bid=1768862904008
-"
+                        href={import.meta.env.VITE_HOTMART_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full md:w-auto bg-brand-accent hover:bg-brand-accentHover text-white font-bold text-xl py-5 px-10 rounded-lg shadow-[0_10px_20px_rgba(237,137,54,0.4)] transition transform hover:scale-105 hover:-translate-y-1 flex items-center justify-center gap-3 border-b-4 border-orange-700 animate-pulse-slow"

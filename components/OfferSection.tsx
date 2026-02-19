@@ -63,9 +63,7 @@ const OfferSection: React.FC<OfferSectionProps> = ({ timer }) => {
                             <i className="ph-fill ph-timer"></i> Oferta encerra em: <span>{timer}</span>
                         </div>
 
-                        <a
-                            href="https://pay.hotmart.com/M103414494J?checkoutMode=10&bid=1768862904008
-"
+                        <a href={import.meta.env.VITE_HOTMART_URL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-5 px-6 rounded-lg shadow-[0_4px_14px_0_rgba(72,187,120,0.39)] transition transform hover:scale-105 active:scale-95 flex flex-col items-center leading-tight group text-center no-underline"

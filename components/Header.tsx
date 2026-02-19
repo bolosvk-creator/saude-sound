@@ -27,7 +27,7 @@ const Header: React.FC = () => {
 
                 {/* BOTÃO VIP */}
                 <a
-                    href="https://pay.hotmart.com/M103414494J?checkoutMode=10&bid=1768862904008"
+                    href={import.meta.env.VITE_HOTMART_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden md:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105 shadow-lg border-b-4 border-green-700"
