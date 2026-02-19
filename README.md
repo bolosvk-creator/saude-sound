@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SaudeSound - Memorização Acelerada para a Saúde
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="faviconuy.png" width="160" alt="Logo SaudeSound">
+</p>
 
-This contains everything you need to run your app locally.
+> **"Pare de estudar errado. Memorize o SUS brincando e garanta sua vaga."**
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wwi2O0goWChc7qcf2Up3XGUV-NRcmw1P
+O **SaudeSound** é uma landing page de alta conversão focada no "Pack Músicas da Saúde". O projeto utiliza princípios da neurociência para transformar conteúdos densos, como decretos e anatomia, em músicas memorizáveis que facilitam o aprendizado de estudantes da área da saúde.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 👥 Autores
 
+Este projeto foi desenvolvido e é mantido por:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Raul Douglas**
+* **André Pereira**
+* **Poliana Oliveira**
+
+## ⚠️ Aviso de Propriedade Intelectual
+
+**Este projeto é protegido por direitos autorais. O plágio total ou parcial de código, design, textos ou áudios é estritamente proibido.** O uso indevido deste conteúdo sem autorização prévia dos autores está sujeito às medidas legais cabíveis.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+* **Abordagem Neurocientífica**: Áudios projetados especificamente para memorização acelerada.
+* **Conteúdo Especializado**: Foco em legislações do SUS, decretos e anatomia complexa.
+* **Interface Responsiva**: Design moderno desenvolvido com Tailwind CSS, otimizado para todos os tamanhos de tela.
+* **Prova Social**: Comunidade com mais de 3.200 alunos aprovados.
+* **Sistema de Urgência**: Cronômetro regressivo integrado para ofertas especiais.
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto utiliza tecnologias modernas para garantir performance e escalabilidade:
+
+* **React 18**: Biblioteca principal para construção da interface.
+* **Vite**: Ferramenta de build de alta performance para o desenvolvimento.
+* **Tailwind CSS**: Framework utilitário para estilização rápida e responsiva.
+* **TypeScript**: Garantia de tipagem estática e segurança no código.
+* **Phosphor Icons**: Biblioteca de ícones moderna e minimalista.
+
+---
+
+© 2026 SaudeSound - Todos os direitos reservados.
